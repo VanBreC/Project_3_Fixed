@@ -23,6 +23,19 @@ namespace Project_3_Fixed
         public MainWindow()
         {
             InitializeComponent();
+
+        }
+
+        private void LoginButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (inputUserName.Text == "home" && inputPassword.Text == "1234")
+            {
+                this.Hide();
+                Window1 tabWindow = new Window1();
+                tabWindow.Show();
+                
+            }
+                
         }
     }
 }

@@ -5,7 +5,6 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
-
 namespace Project_3_Fixed
 {
     /// <summary>
@@ -14,4 +13,5 @@ namespace Project_3_Fixed
     public partial class App : Application
     {
     }
+    
 }
